@@ -190,7 +190,7 @@ Hardware:          CPU (Intel i7 / AMD Ryzen)
 Here we have attached our model's app, which we have deployed for ease of verification:
 	[🚀 Live Demo](https://ecgaibenchmarkgit-j2d3a9r7wy2jkveg3xqz9y.streamlit.app/)
 
-4. Verification Artifacts
+2. Verification Artifacts
 
 Upon completion, verify the generated files in assets/ or outputs/:
 
