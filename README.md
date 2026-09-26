@@ -1,5 +1,5 @@
 # 🫀 ECG AI Benchmark: Deep Learning & Machine Learning Benchmarking for Electrocardiogram Classification:
-	An end-to-end benchmark framework designed to evaluate, compare, and validate deep learning and machine learning models for automated Electrocardiogram (ECG) heartbeat categorization and arrhythmia detection.
+An end-to-end benchmark framework designed to evaluate, compare, and validate deep learning and machine learning models for automated Electrocardiogram (ECG) heartbeat categorization and arrhythmia detection.
 	
 # 📌 Table of Contents:
 1.Key Innovations & Novel Features
@@ -45,7 +45,7 @@ This benchmark framework moves beyond traditional black-box classification by in
 
 	INT8 Post-Training Quantization (PTQ) readiness for wearable deployment.
 
-🔬 Approach & Technical Rationale
+# 🔬 Approach & Technical Rationale
 
 1. Methodology Overview
 
@@ -75,7 +75,7 @@ A unified evaluation pipeline ensures that every model is scored against the exa
 Inference Efficiency: 
 Compares parameter counts and latency to identify which architectures are viable for deployment on edge monitoring devices.
 
-📊 Datasets Used
+# 📊 Datasets Used
 
 This project supports standard open-access clinical ECG benchmarks:
 
@@ -96,7 +96,7 @@ ecg_ai_benchmark/
     │   └── mitbih_test.csv
     └── processed/
 
-📁 Project Architecture:
+# 📁 Project Architecture:
 
 ecg_ai_benchmark/
 ├── data/                      # Raw and preprocessed ECG data
@@ -114,7 +114,7 @@ ecg_ai_benchmark/
 ├── app.py                     # Streamlit/Gradio live demo interface
 └── README.md
 
-⚙️ Environment Setup & Installation:
+# ⚙️ Environment Setup & Installation:
 
 Follow these instructions to configure an identical environment for evaluation:
 
@@ -141,7 +141,7 @@ pip install -r requirements.txt
 
 (Ensure PyTorch is configured with CUDA if running on an Nvidia GPU system).
 
-🚀 Running the Benchmark:
+# 🚀 Running the Benchmark:
 
 1. Data Preprocessing & Feature Extraction
 	
@@ -171,7 +171,7 @@ pip install -r requirements.txt
 
 	streamlit run app.py
 
-📈 Expected Outputs & Verification:
+# 📈 Expected Outputs & Verification:
 
 Evaluation can be verified through generated metrics files and console summaries:
 
@@ -198,7 +198,7 @@ Upon completion, verify the generated files in assets/ or outputs/:
   roc_curve.png: Multi-label / multi-class ROC-AUC comparison curves.
   benchmark_summary.csv: Tabular performance across parameters, memory footprint, and F1-scores.
 
-🖼️ Visual Demonstrations:
+# 🖼️ Visual Demonstrations:
 
 Model Performance & Confusion Matrix
   Figure 1: Multi-class Arrhythmia Confusion Matrix on Test Split.
@@ -209,7 +209,7 @@ Signal Processing & Prediction Output
 Interactive UI Demonstration
   Figure 3: Interactive inference dashboard predicting arrhythmia in real time.
 
-📊 Summary of Benchmark Results:
+# 📊 Summary of Benchmark Results:
 
 | Architecture | Accuracy (%) | Macro F1 | Latency (ms) | Parameters | Key Highlight |
 
@@ -221,6 +221,6 @@ Interactive UI Demonstration
 
 | CNN-LSTM + Attention | 98.4% | 0.964 | 2.1 ms | ~280K | Novel fusion & attention |
 
-📜 License:
+# 📜 License:
 
 Distributed under the MIT License. See LICENSE for more information.
