@@ -1,7 +1,7 @@
-🫀 ECG AI Benchmark: Deep Learning & Machine Learning Benchmarking for Electrocardiogram Classification:
+# 🫀 ECG AI Benchmark: Deep Learning & Machine Learning Benchmarking for Electrocardiogram Classification:
 	An end-to-end benchmark framework designed to evaluate, compare, and validate deep learning and machine learning models for automated Electrocardiogram (ECG) heartbeat categorization and arrhythmia detection.
 	
-📌 Table of Contents:
+# 📌 Table of Contents:
 1.Key Innovations & Novel Features
 2.Approach & Technical Rationale
 3.Datasets Used
@@ -13,7 +13,7 @@
 9.Evaluation Metrics & Results
 10.License
 
-💡 Key Innovations & Novel Features
+# 💡 Key Innovations & Novel Features
 
 This benchmark framework moves beyond traditional black-box classification by introducing technical features designed specifically for physiological signal processing:
 
@@ -153,10 +153,10 @@ pip install -r requirements.txt
 	
 	Train a specific benchmark architecture:
 
-	# Train the 1D-CNN benchmark
+	 Train the 1D-CNN benchmark
 	python src/train.py --model cnn1d --epochs 30 --batch_size 64
 
-	# Train an Attention-augmented LSTM / ResNet model
+	 Train an Attention-augmented LSTM / ResNet model
 	python src/train.py --model attention_lstm --epochs 30 --batch_size 64
 
 3. Evaluate & Compare Models
