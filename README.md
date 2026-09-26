@@ -125,13 +125,13 @@ cd ecg_ai_benchmark
 
 Step 2: Create and Activate a Virtual Environment
 
-# Using Python venv
+Using Python venv:
 python3 -m venv venv
 
-# On Linux / macOS:
+On Linux / macOS:
 source venv/bin/activate
 
-# On Windows:
+On Windows:
 venv\Scripts\activate
 
 Step 3: Install Required Dependencies
@@ -177,7 +177,7 @@ Evaluation can be verified through generated metrics files and console summaries
 
 1. Terminal Output Sample
 
-======================= BENCHMARK EVALUATION =======================
+*======================= BENCHMARK EVALUATION =======================
 Model: Attention 1D-CNN
 Accuracy:          98.64%
 Precision (Macro): 0.9672
@@ -185,9 +185,12 @@ Recall (Macro):    0.9610
 F1-Score (Macro):  0.9641
 Inference Latency: 1.58 ms / sample
 Hardware:          CPU (Intel i7 / AMD Ryzen)
-===================================================================
+===================================================================*
 
-2. Verification Artifacts
+Here we have attached our model's app, which we have deployed for ease of verification:
+	[🚀 Live Demo](https://ecgaibenchmarkgit-j2d3a9r7wy2jkveg3xqz9y.streamlit.app/)
+
+4. Verification Artifacts
 
 Upon completion, verify the generated files in assets/ or outputs/:
 
